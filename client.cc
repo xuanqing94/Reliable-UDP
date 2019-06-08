@@ -46,7 +46,7 @@ Client::Client(const std::string& server_ip, int server_port, int max_seq_number
     struct timespec TTL, TO, zero;
     TTL.tv_sec = 0;
     TTL.tv_nsec = 500000000; // 0.5 sec = 500 ms = 500000 us = 500000000 
-    TO.tv_sec = 100;
+    TO.tv_sec = 10;
     TO.tv_nsec = 0;
     zero.tv_sec = 0;
     zero.tv_nsec = 0;

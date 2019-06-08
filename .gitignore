@@ -1,0 +1,9 @@
+*.o
+*.swp
+*.file
+*.data
+client
+server
+core
+log
+*.log
